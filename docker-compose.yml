@@ -1,0 +1,9 @@
+version: ""
+services:
+  web:
+    build: .
+    command: python app.py
+    ports:
+     - "5000:5000"
+    environment:
+     - DATADOG_HOST=datadog # used by the web app to initialize the Datadog library

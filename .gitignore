@@ -1,0 +1,3 @@
+app.log
+.pytest_cache
+app/__pycache__
